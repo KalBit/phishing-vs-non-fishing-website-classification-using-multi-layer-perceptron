@@ -7,7 +7,10 @@ Feature Columns:
 having_ip_address | url_length | shortining_service | having_at_symbol | double_slash_redirecting | prefix_suffix | having_sub_domain | sslfinal_state | domain_registration_length | favicon | port | https_token | request_url | url_of_anchor | links_in_tags | sfh | submitting_to_email | abnormal_url | redirect | on_mouseover | rightclick | popupwindow | iframe | age_of_domain | dnsrecord | web_traffic | page_rank | google_index | links_pointing_to_page |
 
 ### Class Distribution
-![Class Distribution](./plots/class_dist.png)
+
+<p align="center">
+  <img src="./plots/class_dist.png" alt="Class Distribution" />
+</p>
 
 ## Workflow
 ```mermaid
@@ -22,4 +25,10 @@ flowchart TB
     n1@{ shape: rect}
     n5@{ shape: rounded}
 ```
+## Model Architecture
+
+<p align="center">
+  <img src="./misc/MLP_diagram.png" alt="Model_Diagram" />
+</p>
+
 
