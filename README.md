@@ -31,4 +31,54 @@ flowchart TB
   <img src="./misc/MLP_diagram.png" alt="Model_Diagram" />
 </p>
 
+## Model Evaluation
+
+Training loss, accuracy and Validation loss, accuracy over number of epochs.
+
+<p align="center">
+  <img src="./plots/loss_epoch.png" width="48%" alt="Loss Curve" />
+  <img src="./plots/acc_epoch.png" width="48%" alt="Accuracy Curve" />
+</p>
+
+No improvement in the validation accuracy or loss after 47 epochs.Therefore final model was trained for 47 epochs.
+
+Then the final model trained on combined train and validation set was evaluated on the unseen test data. The following results were obtained.
+
+<div align="center">
+  <table>
+    <thead>
+      <tr>
+        <th>Metric</th>
+        <th>Phishing (Class 0)</th>
+        <th>Legitimate (Class 1)</th>
+        <th>Overall Accuracy</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><b>Precision</b></td>
+        <td>0.97</td>
+        <td>0.97</td>
+        <td rowspan="3" align="center"><b>0.97</b></td>
+      </tr>
+      <tr>
+        <td><b>Recall</b></td>
+        <td>0.96</td>
+        <td>0.98</td>
+      </tr>
+      <tr>
+        <td><b>F1-Score</b></td>
+        <td>0.97</td>
+        <td>0.97</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+confusion matrix for the test data is shown below,
+
+<p align="center">
+  <img src="./plots/cm.png" alt="Confusion_Matrix" />
+</p>
+
 
