@@ -90,4 +90,12 @@ confusion matrix for the test data is shown below,
   <img src="./plots/cm.png" alt="Confusion_Matrix" />
 </p>
 
+## Conclusion
+
+The Multi layer perceptron performs exceptionally well in classifying website into phishing and legitimate given the feature set. It has an overall 96% accuracy. The model identifies 98% of the websites that are safe to visit and 96% of the phishing websites are identified correctly. 94% recall for phishing depicts that around 6% of the phishing websites have been misclassified.
+
+## Areas to Improve
+
+- feature engineering
+- Hyper parameter tuning
 
