@@ -51,25 +51,34 @@ Then the final model trained on combined train and validation set was evaluated 
         <th>Metric</th>
         <th>Phishing (Class 0)</th>
         <th>Legitimate (Class 1)</th>
-        <th>Overall Accuracy</th>
+        <th>Overall Metrics</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><b>Precision</b></td>
         <td>0.97</td>
-        <td>0.97</td>
-        <td rowspan="3" align="center"><b>0.97</b></td>
+        <td>0.96</td>
+        <td rowspan="4" align="center">
+          <b>Accuracy: 0.96</b><br>
+          <hr>
+          <b>Total Support: 2211</b>
+        </td>
       </tr>
       <tr>
         <td><b>Recall</b></td>
-        <td>0.96</td>
+        <td>0.94</td>
         <td>0.98</td>
       </tr>
       <tr>
         <td><b>F1-Score</b></td>
+        <td>0.96</td>
         <td>0.97</td>
-        <td>0.97</td>
+      </tr>
+      <tr>
+        <td><b>Support</b></td>
+        <td>980</td>
+        <td>1231</td>
       </tr>
     </tbody>
   </table>
