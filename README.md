@@ -1,1 +1,2 @@
-# phishing-vs-non-fishing-website-classification-using-multi-layer-perceptron
+# Phishing Website Detection using MLP in Pytorch
+Workflow to Classify Websites as legitimate or phishing using multi layer perceptron implemented with pytorch library
